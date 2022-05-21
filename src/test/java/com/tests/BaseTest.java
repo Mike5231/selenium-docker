@@ -18,7 +18,7 @@ public class BaseTest {
     public void setupParameters() throws MalformedURLException {
 
         ChromeOptions dc = new ChromeOptions();
-        String completeUrl = "http://192.168.1.2:4444/wd/hub";
+        String completeUrl = "http://localhost:4444/wd/hub";
         this.driver = new RemoteWebDriver(new URL(completeUrl), dc);
     }
 
